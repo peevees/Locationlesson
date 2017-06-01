@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuStartListening"
+        android:title="Start Listening"
+        android:onClick="onStartListening"
+        android:icon="@android:drawable/ic_menu_mapmode"  />
+    <item android:id="@+id/menuStopListening"
+        android:title="Stop Listening"
+        android:onClick="onStopListening"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"  />
+    <item android:id="@+id/menuRecentLocation"
+        android:title="Recent Location"
+        android:onClick="onRecentLocation"
+        android:icon="@android:drawable/ic_menu_preferences"  />
+    <item android:id="@+id/menuSingleLocation"
+        android:title="Single Location"
+        android:onClick="onSingleLocation"
+        android:icon="@android:drawable/ic_menu_rotate"  />
+</menu>
